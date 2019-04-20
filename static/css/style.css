@@ -1,0 +1,191 @@
+/*-- General Styling --*/
+
+.tiled-background {
+    background-color: #888;
+    background-image: url("../images/bg_image.jpg");
+    background-position: center center;
+}
+
+
+.main-container {
+    min-height: calc(100vh - 141px);
+}
+
+.spacing-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.content-container {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: snow;
+    opacity: 0.9;
+    margin: 12.5px 0;
+    text-align: center;
+}
+
+
+
+.heading {
+    margin: 0 auto;
+    color: black;
+    font-weight: 600;
+}
+
+
+p {
+    color: #000;
+    padding: 0 5px;
+}
+
+.text {
+    margin: 10px 0;
+}
+
+
+/*-- Narbar --*/
+
+.nav-bar {
+    position: fixed;
+    min-height: 50px;
+    background: linear-gradient(270deg, rgba(16,0,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #aa3939;
+    margin-bottom: 12.5px;
+    z-index: 1;
+}
+
+.main-container-spacing {
+    min-height: 100px;
+}
+
+.title {
+    color: black;
+    text-decoration: none;
+    font-size: 3em;
+    margin: 5px 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+/*-- Filter Selector --*/
+
+.selector-spacing-container {
+    flex-wrap: wrap;
+}
+
+.dropdown-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/*-- Reset Button --*/
+
+.reset-button {
+   color: #ff0404;
+   text-decoration: none;
+   font-weight: bold;
+   opacity: .8;
+   display: inline-block;
+   padding: 5px 10px;
+   position: fixed;
+   background-color: #1000ff;
+   right: 20px;
+   top: 80px;
+   z-index: 2;
+   border-radius: 5px;
+}
+
+.reset-button:focus {
+   text-decoration: none;
+   color: #fff;
+}
+
+.reset-button:hover {
+   background-color: #ff0404;
+   opacity: 1;
+   color: #1000ff;
+   text-decoration: none;
+}
+
+
+
+
+/*-- Charts --*/
+
+.chart {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 10px 0;
+}
+
+.dc-chart .pie-slice {
+    font-size: 14px;
+}
+
+.dc-chart g.row text {
+    fill: black;
+}
+
+
+/*-- Footer --*/
+
+.footer {
+    min-height: 50px;
+    margin-top: 12.5px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
+
+.github-logo {
+    color: white;
+    font-size: 2em;
+    padding: 8px 0;
+    transition: all .2s ease-in-out
+}
+
+.github-logo:focus,
+.github-logo:hover {
+    color: #e5462d;
+}
+
+.kaggle-logo {
+    height: 1.25em;
+}
+
+.kaggle-logo:focus,
+.kaggle-logo:hover {
+    opacity: 0.8;
+}
+
+/*-- Media Queries --*/
+
+@media (min-width: 768px) {
+    .github-logo {
+        font-size: 2.4em;
+    }
+}
+
+
+@media (min-width: 400px) {
+    .main-container-space {
+        min-height: 63px;
+    }
+}

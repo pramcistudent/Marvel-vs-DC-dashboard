@@ -1,11 +1,9 @@
 /*-- General Styling --*/
-
 .tiled-background {
     background-color: #888;
     background-image: url("../images/bg_image.jpg");
     background-position: center center;
 }
-
 
 .main-container {
     min-height: calc(100vh - 141px);
@@ -15,7 +13,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .content-container {
     width: 100%;
@@ -27,14 +24,11 @@
     text-align: center;
 }
 
-
-
 .heading {
     margin: 0 auto;
     color: black;
     font-weight: 600;
 }
-
 
 p {
     color: #000;
@@ -45,9 +39,7 @@ p {
     margin: 10px 0;
 }
 
-
 /*-- Narbar --*/
-
 .nav-bar {
     position: fixed;
     min-height: 50px;
@@ -75,7 +67,6 @@ p {
 }
 
 /*-- Filter Selector --*/
-
 .selector-spacing-container {
     flex-wrap: wrap;
 }
@@ -89,7 +80,6 @@ p {
 }
 
 /*-- Reset Button --*/
-
 .reset-button {
    color: #ff0404;
    text-decoration: none;
@@ -117,11 +107,7 @@ p {
    text-decoration: none;
 }
 
-
-
-
 /*-- Charts --*/
-
 .chart {
     width: 100%;
     height: 100%;
@@ -136,13 +122,11 @@ p {
     fill: black;
 }
 
-
 /*-- Footer --*/
-
 .footer {
     min-height: 50px;
     margin-top: 12.5px;
-    background-color: black;
+    background-color: rosybrown;
     color: white;
 }
 
@@ -154,35 +138,35 @@ p {
     padding: 8px;
 }
 
-.github-logo {
+.github-logo,
+.linkedin-logo {
     color: white;
-    font-size: 2em;
-    padding: 8px 0;
-    transition: all .2s ease-in-out
+    font-size: 2.5em;
+    padding: 6px;
+    transition: all .3s ease-in-out
+}
+
+.linkedin-logo:focus,
+.linkedin-logo:hover {
+    color: #0008ff;
 }
 
 .github-logo:focus,
 .github-logo:hover {
-    color: #e5462d;
+    color: #ff0000;
 }
 
 .kaggle-logo {
     height: 1.25em;
 }
 
-.kaggle-logo:focus,
-.kaggle-logo:hover {
-    opacity: 0.8;
-}
-
 /*-- Media Queries --*/
-
 @media (min-width: 768px) {
-    .github-logo {
-        font-size: 2.4em;
+    .github-logo,
+    .linkedin-logo {
+        font-size: 1.8em;
     }
 }
-
 
 @media (min-width: 400px) {
     .main-container-space {

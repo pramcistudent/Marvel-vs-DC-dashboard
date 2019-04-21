@@ -144,10 +144,10 @@ function display_gender_percent(ndx, gender, element) {
         .group(genderGroup)
         .title(function(d) {
             if (d.value === 1) {
-                return d.value + " Superhero is " + d.key;
+                return d.value + " Hero is " + d.key;
             }
             else {
-                return d.value + " Superheroes are " + d.key;
+                return d.value + " Heroes are " + d.key;
             }
         });
 }
@@ -177,10 +177,10 @@ function alignment(ndx) {
         })
         .title(function(d) {
             if (d.value === 1) {
-                return d.value + " Superhero is " + d.key;
+                return d.value + " Hero is " + d.key;
             }
             else {
-                return d.value + " Superheroes are " + d.key;
+                return d.value + " Heroes are " + d.key;
             }
         });
 }
@@ -203,7 +203,7 @@ function hair_color(ndx) {
             return d.key;
         })
         .title(function(d) {
-            return d.value + " Superhero(es) created by " + d.key;
+            return d.value + " Hero(es) with " + d.key + " hair ";
         })
         .label(function(d) {
             return d.key + " " + d.value;
@@ -228,7 +228,7 @@ function eye_color(ndx) {
         })
         .group(eyeColorGroup)
         .title(function(d) {
-            return d.value + " Superhero(es) created by " + d.key;
+            return d.value + " Hero(es) with " + d.key + " eyes ";
         })
         .label(function(d) {
             return d.key + " " + d.value;
@@ -253,15 +253,18 @@ function stats(ndx) {
     var compositeChart = dc.compositeChart('#stats');
     compositeChart
         .width(900)
-        .height(350)
+        .height(400)
         .margins({ top: 10, right: 30, bottom: 40, left: 40 })
         .x(d3.scale.linear().domain([0, 100]))
         .xAxisLabel('Attribute Value')
-        .yAxisLabel('Frequency')
+        .yAxisLabel('Number of Heroes')
         .elasticY(true)
         .legend(dc.legend().x(80).y(20).itemHeight(18).gap(5).horizontal(true).autoItemWidth(false).itemWidth(90))
         .useViewBoxResizing(true)
         .brushOn(false)
+        .title(function(d) {
+            return d.value + " Hero(es) with an attribute at " + d.key;
+        })
         .compose([
             dc.lineChart(compositeChart).colors('grey').group(intGroup, 'Intelligence'),
             dc.lineChart(compositeChart).colors('blue').group(strGroup, 'Strength'),

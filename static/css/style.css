@@ -31,13 +31,14 @@
 }
 
 p {
-    color: #000;
     padding: 0 5px;
 }
 
 .text {
+    color: #000;
     margin: 10px 0;
 }
+
 
 /*-- Narbar --*/
 .nav-bar {
@@ -111,7 +112,13 @@ p {
 .chart {
     height: auto;
     width: 100%;
-    margin: 0 0 10px;
+    margin: 15px 0 10px;
+}
+
+.chart-pie {
+    height: auto;
+    width: 100%;
+    margin: 38px 0 15px;
 }
 
 .dc-chart .pie-slice {
@@ -173,3 +180,4 @@ p {
         min-height: 63px;
     }
 }
+

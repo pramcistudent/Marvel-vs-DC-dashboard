@@ -109,8 +109,8 @@ p {
 
 /*-- Charts --*/
 .chart {
-    width: 100%;
     height: auto;
+    width: 100%;
     margin: 0 0 10px;
 }
 

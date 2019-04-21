@@ -125,8 +125,8 @@ function display_gender_percent(ndx, gender, element) {
     var genderGroup = remove_blanks(genderDim.group(), "");
     dc.pieChart('#gender')
         .width(500)
-        .height(350)
-        .radius(170)
+        .height(400)
+        .radius(190)
         .cx(210)
         .transitionDuration(500)
         .legend(dc.legend().x(420).y(10).itemHeight(35).gap(8))
@@ -158,8 +158,8 @@ function alignment(ndx) {
     var alignmentGroup = remove_blanks(alignmentDim.group(), "");
     dc.pieChart('#alignment')
         .width(500)
-        .height(350)
-        .radius(170)
+        .height(400)
+        .radius(190)
         .cx(210)
         .transitionDuration(500)
         .legend(dc.legend().x(420).y(10).itemHeight(35).gap(8))

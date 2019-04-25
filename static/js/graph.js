@@ -103,7 +103,7 @@ function publisher(ndx) {
         .colorAccessor(function(d) {
             return d.key;
         })
-        .barPadding(.3)
+        .barPadding(0.3)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(false)

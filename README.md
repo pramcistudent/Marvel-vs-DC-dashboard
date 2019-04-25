@@ -31,7 +31,7 @@ The dashboard is designed for new and existing fans of Marvel and DC. Users can 
 
 ## Current Features
 
-* The Navbar is fixed to the top of the page and contains the name of the site. The navbar has been styled using red to represent [Marvel] and blue to represent [DC].
+* The Navbar is fixed to the top of the page and contains the name of the site. The navbar has been styled using red to represent [Marvel]() and blue to represent [DC]().
 
 * Just below the navbar on the right-hand side is a fixed scrolling reset button to allow the user to quickly and easily reset all filters at any point. This avoids the user having to scroll and find the reset button.
 
@@ -45,7 +45,7 @@ The dashboard is designed for new and existing fans of Marvel and DC. Users can 
  
 * The line chart comprises of 6 different data point sources, each one relating to an attribute of the hero. These are Intelligence, Strength, Speed, Durability, Power, and Combat. This chart allows the user to see the spread of these attributes across the dataset. The user can hover over the data-point to see the exact values and can also hover over the legend to view just that attribute in isolation.
 
-* The footer contains links to my [Github] page and a link to [Kaggle] were the [original dataset] was sourced from.
+* The footer contains links to [Github](https://github.com/pramcistudent), [LinkedIn](https://www.linkedin.com) pages and a link to [Kaggle](https://www.kaggle.com/) were the [original dataset](https://www.kaggle.com/thec03u5/complete-superhero-dataset) was sourced from.
 
 ### Features to be implemented
 
@@ -62,10 +62,36 @@ The dashboard is designed for new and existing fans of Marvel and DC. Users can 
 * [Compress JPEG](https://compressjpeg.com/) was used to compress the background image to allow for quicker and smoother loading time.
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) primary function of the site for all user interaction.
 * [D3.js](https://d3js.org/) [DC.js](https://dc-js.github.io/dc.js/) [Crossfilter.js](http://square.github.io/crossfilter/) [D3-Queue.js](https://github.com/d3/d3-queue) used for the creation and manipulation of the data-visualization elements, and queue.js used to load the dataset fully before running any other files.
-* [jQuery]() used to assist with DOM manipulation when resetting filters, showing or hiding selected sections.
+* [jQuery](https://jquery.com/) used to assist with DOM manipulation when resetting filters, showing or hiding selected sections.
 
 ## Testing
-Testing was carried out and documented on Excel 
+Testing was carried out and documented using Excel to ensure the site renders consistently across different platforms. An image of the testing results can be found [here](static/images/testing.jpg).
+
+##### Validation testing
+[HTML](https://validator.w3.org/) the following error was found: Bad value https:///www.linkedin.com for attribute href on element a: Unexpected slash or backslash.
+[CSS](https://jigsaw.w3.org/css-validator/) no errors found.
+[JavaScript](http://beautifytools.com/javascript-validator.php) no errors found.
+[JSHint](https://jshint.com/) results can be found [here](static/images/jshint.jpg)
+
+##### Responsive testing
+Chrome dev tools was used to simulate multiple devices and widths, and no issues were found for the following devices:
+* Laptop with touch
+* iPad pro
+* iPad
+* Galaxy Tab 10
+* Kindle Fire HD
+* iPhone 6/7/8
+* iPhone 6+/7+/8+
+* Galaxy S7/edge
+* Galaxy S9/S9+
+
+##### Browser Compatibility
+To ensure a broad range of users can successfully use the site, I tested the site across 5 major browsers in both desktop and mobile configuration.
+* Chrome
+* Edge
+* Firefox
+* Opera
+* IE
 
 ## Deployment
 

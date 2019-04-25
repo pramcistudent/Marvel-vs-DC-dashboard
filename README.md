@@ -31,7 +31,7 @@ The dashboard is designed for new and existing fans of Marvel and DC. Users can 
 
 ## Current Features
 
-* The Navbar is fixed to the top of the page and contains the name of the site. The navbar has been styled using red to represent [Marvel]() and blue to represent [DC]().
+* The Navbar is fixed to the top of the page and contains the name of the site. The navbar has been styled using red to represent [Marvel](https://www.marvel.com/movies) and blue to represent [DC](https://www.dcuniverse.com/coming-soon/).
 
 * Just below the navbar on the right-hand side is a fixed scrolling reset button to allow the user to quickly and easily reset all filters at any point. This avoids the user having to scroll and find the reset button.
 
@@ -47,9 +47,9 @@ The dashboard is designed for new and existing fans of Marvel and DC. Users can 
 
 * The footer contains links to [Github](https://github.com/pramcistudent), [LinkedIn](https://www.linkedin.com) pages and a link to [Kaggle](https://www.kaggle.com/) were the [original dataset](https://www.kaggle.com/thec03u5/complete-superhero-dataset) was sourced from.
 
-### Features to be implemented
+### Features still to be implemented
 
-* Originally, I wanted to add [Intro.js] which provides the user with a step-by-step walk through of the features the website has to offer and how to use buttons and filter charts on the data dashboard. Unfortunately implementing this is currently out of my scope so I tried to find an alternative intro helper function which I was able to implement.
+* Originally, I wanted to add [Intro.js](https://introjs.com/) which provides the user with a step-by-step walk through of the features the website has to offer and how to use buttons and filter charts on the data dashboard. Unfortunately implementing this is currently out of my scope so I tried to find an alternative intro helper function which I was able to implement.
 
 * The ability to incorporate images of each hero so the user can view these when selecting individual heroes. Not only can the user view hero images but they can also view information on when the hero first appeared in comics.
 
@@ -67,13 +67,13 @@ The dashboard is designed for new and existing fans of Marvel and DC. Users can 
 ## Testing
 Testing was carried out and documented using Excel to ensure the site renders consistently across different platforms. An image of the testing results can be found [here](static/images/testing.jpg).
 
-##### Validation testing
-[HTML](https://validator.w3.org/) the following error was found: Bad value https:///www.linkedin.com for attribute href on element a: Unexpected slash or backslash.
-[CSS](https://jigsaw.w3.org/css-validator/) no errors found.
-[JavaScript](http://beautifytools.com/javascript-validator.php) no errors found.
-[JSHint](https://jshint.com/) results can be found [here](static/images/jshint.jpg)
+#### Validation Testing
+* [HTML](https://validator.w3.org/) the following error was found: Bad value https:///www.linkedin.com for attribute href on element a: Unexpected slash or backslash.
+* [CSS](https://jigsaw.w3.org/css-validator/) no errors found.
+* [JavaScript](http://beautifytools.com/javascript-validator.php) no errors found.
+* [JSHint](https://jshint.com/) results can be found [here](static/images/jshint.jpg)
 
-##### Responsive testing
+#### Responsive Testing
 Chrome dev tools was used to simulate multiple devices and widths, and no issues were found for the following devices:
 * Laptop with touch
 * iPad pro
@@ -85,7 +85,7 @@ Chrome dev tools was used to simulate multiple devices and widths, and no issues
 * Galaxy S7/edge
 * Galaxy S9/S9+
 
-##### Browser Compatibility
+#### Browser Compatibility
 To ensure a broad range of users can successfully use the site, I tested the site across 5 major browsers in both desktop and mobile configuration.
 * Chrome
 * Edge
@@ -94,17 +94,27 @@ To ensure a broad range of users can successfully use the site, I tested the sit
 * IE
 
 ## Deployment
+The following steps were made to deploy the project
 
+#### Github Deployment
+* The git repository was initiated via the `git init` command into the terminal
+* I added the files that I was working on to the staging area by using `git add` I then ran the commit command with the first commit `git commit -m "Initial commit"`
+* The repository was linked to a .git file on github via
+    `git remote add origin http://github.com/pramcistudent/Marvel-vs-DC-dashboard.git/`
+    `git push -u origin master`
 
+* After each change, the following commands were used to push the changes to the git repository
+    `git add *` - This adds all changed files to staging area
+    `git commit -m "Add message here"` - Commits the work with a brief message as to what has changed
+    `git push` - This pushes the work to the git repository, after entering your github username and password
 
 ## Content
-
+* The original dataset was sourced from [kaggle](https://www.kaggle.com) and can be found [here](https://www.kaggle.com/thec03u5/complete-superhero-dataset).
+* I choose to filter the data since the site was only going to view and analysis data from comic publisher Marvel & DC.
+* The navbar gradient was sourced from this [site](https://cssgradient.io/), and I used the official website of [Marvel](https://www.marvel.com/movies) & [DC](https://www.dcuniverse.com/coming-soon/) to decide which colors to use for the gradient and which color to assign to each comic.
 
 ## Media
-
+* The background image was created by sourcing the [Marvel logo](https://www.google.com/search?hl=en&biw=1366&bih=625&tbm=isch&sa=1&ei=GQnCXOzIJOXRgwe2iqGwCQ&q=marvel+logo&oq=marvel+logo&gs_l=img.3..35i39j0l9.4728.7436..8450...2.0..0.280.858.4j2j1......1....1..gws-wiz-img.......0i67.dre8h9ibh08) & [DC logo](https://www.google.com/search?hl=en&biw=1366&bih=625&tbm=isch&sa=1&ei=IwnCXJP1JdzTgwf3jJvIDg&q=dc+logo&oq=dc+logo&gs_l=img.3..35i39j0l3j0i67l2j0j0i67l2j0.147018.148569..148791...0.0..1.447.1391.3j3j1j0j1......1....1..gws-wiz-img.......0i7i30.Pxw_W-IdX3c) from google search/images. I then mearged both images togehter using windows snipping tools to creat an image with both logos. The image was then use to create the tiled background.
 
 ## Acknowledgements
-
-
-
-
+* [Tutorialspoint](https://www.tutorialspoint.com/java/)

@@ -18,8 +18,8 @@
     width: 100%;
     padding: 15px 10px;
     border-radius: 10px;
-    background-color: snow;
-    opacity: 0.9;
+    background-color: rgb(255, 251, 251, 0.8);
+    
     margin: 12.5px 0;
     text-align: center;
 }
@@ -128,6 +128,7 @@ p {
 .dc-chart g.row text {
     fill: black;
 }
+
 
 /*-- Footer --*/
 .footer {

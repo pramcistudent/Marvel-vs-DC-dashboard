@@ -111,7 +111,6 @@ function publisher(ndx) {
 }
 
 /* -- Pie Chart Percentage -*/
-
 function show_slice_percent(key, endAngle, startAngle) {
     var percent = dc.utils.printSingleValue((endAngle - startAngle) / (2 * Math.PI) * 100);
     if (percent > 5) {

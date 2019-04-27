@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/spacelab/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/helper/node_modules/shepherd.js/dist/css/shepherd-theme-dark.css" />
     <link rel="stylesheet" href="static/css/style.css" type="text/css" />
     <!-- JS Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
@@ -22,7 +21,7 @@
 
 <body class="tiled-background">
     <!-- Reset Button -->
-    <a class="reset-button helper3" href="javascript:dc.filterAll(); dc.renderAll();">Reset All Charts</a>
+    <a class="reset-button" href="javascript:dc.filterAll(); dc.renderAll();">Reset All Charts</a>
     <!-- Fixed Title Bar -->
     <nav class="container-fluid">
         <div class="row">
@@ -39,7 +38,7 @@
             <!-- Hero Selector -->
             <div class="row">
                 <div class="heading content-container">Select your favourite Hero
-                    <div class="helper2 dropdown-filter">
+                    <div class="dropdown-filter">
                     <div id="hero-selector"></div>
                     </div>
                 </div>    
@@ -49,6 +48,7 @@
             <!-- Publisher -->
             <header class="col-xs-12 col-sm-12 col-md-4 spacing-container">
                 <div class="content-container">
+                    
                     <h3 class="heading">Comic Publisher</h3>
                     <div id="publisher" class="chart"></div>
                     <p class="text">Are you a Marvel fan or a DC fan?</p>
@@ -59,7 +59,7 @@
             </header>
             <!-- Gender -->
             <section class="col-xs-12 col-sm-6 col-md-4 spacing-container">
-                <div class="helper1 content-container">
+                <div class="content-container">
                     <h3 class="heading">Gender</h3>
                     <div id="gender" class="chart-pie"></div>
                     <p class="text">The gender pie chart below shows the mix % of each gender.</p>
@@ -129,10 +129,6 @@
     </footer>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <!-- Helper Libraries -->
-    <script src="static/helper/node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="static/helper/node_modules/shepherd.js/dist/js/shepherd.min.js"></script>
-    <script src="static/js/helper.js"></script>
 </body>
 
 </html>

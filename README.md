@@ -3,6 +3,7 @@
 # Code Institute Milestone Project
 
 Are you a Marvel fan or are you a DC fan?
+
 The Marvel vs DC Hero data dashboard contains information on over 500 super heroes and super villains from both comics. The purpose of this dashboard is to give the user away to easily analyse data from both comics. 
 
 The data dashboard was built using DC, D3, Crossfilter and Queue libraries to present data in varies charts such as row/bar charts, line charts and pie charts. 
@@ -114,7 +115,10 @@ The following steps were made to deploy the project
 * The navbar gradient was sourced from this [site](https://cssgradient.io/), and I used the official website of [Marvel](https://www.marvel.com/movies) & [DC](https://www.dcuniverse.com/coming-soon/) to decide which colors to use for the gradient and which color to assign to each comic.
 
 ## Media
-* The background image was created by sourcing the [Marvel logo](https://www.google.com/search?hl=en&biw=1366&bih=625&tbm=isch&sa=1&ei=GQnCXOzIJOXRgwe2iqGwCQ&q=marvel+logo&oq=marvel+logo&gs_l=img.3..35i39j0l9.4728.7436..8450...2.0..0.280.858.4j2j1......1....1..gws-wiz-img.......0i67.dre8h9ibh08) & [DC logo](https://www.google.com/search?hl=en&biw=1366&bih=625&tbm=isch&sa=1&ei=IwnCXJP1JdzTgwf3jJvIDg&q=dc+logo&oq=dc+logo&gs_l=img.3..35i39j0l3j0i67l2j0j0i67l2j0.147018.148569..148791...0.0..1.447.1391.3j3j1j0j1......1....1..gws-wiz-img.......0i7i30.Pxw_W-IdX3c) from google search/images. I then mearged both images togehter using windows snipping tools to creat an image with both logos. The image was then use to create the tiled background.
+* The background image was created by sourcing the [Marvel logo](https://www.google.com/search?hl=en&biw=1366&bih=625&tbm=isch&sa=1&ei=GQnCXOzIJOXRgwe2iqGwCQ&q=marvel+logo&oq=marvel+logo&gs_l=img.3..35i39j0l9.4728.7436..8450...2.0..0.280.858.4j2j1......1....1..gws-wiz-img.......0i67.dre8h9ibh08) & [DC logo](https://www.google.com/search?hl=en&biw=1366&bih=625&tbm=isch&sa=1&ei=IwnCXJP1JdzTgwf3jJvIDg&q=dc+logo&oq=dc+logo&gs_l=img.3..35i39j0l3j0i67l2j0j0i67l2j0.147018.148569..148791...0.0..1.447.1391.3j3j1j0j1......1....1..gws-wiz-img.......0i7i30.Pxw_W-IdX3c) from google search/images. I then merged both images together using windows snipping tools to create an image with both logos. The image was changed using grey color scaling and use to create the tiled background.
 
 ## Acknowledgements
-* [Tutorialspoint](https://www.tutorialspoint.com/java/)
+* A big thank you to my mentor [Guido Cecilio](https://github.com/guidocecilio) for his time, suggestions, and constructive feedback for the project!
+* The [Tutorialspoint](https://www.tutorialspoint.com/java/) for making such a well-structured and easy to follow tutorials to help further aid with understanding of Java programming.
+* My son for his input and ideas on the layout of the site as well as helping to choose the typography site.
+* My wife & daughter for helping with responsive testing on multiple browsers and devices. A huge thank you to both for testing and clicking charts and ensuring the correct information renders across all charts.

@@ -64,6 +64,7 @@ function createDataVis(error, superheroData) {
     stats(ndx);
 
     dc.renderAll();
+    introJs().start();
 }
 
 /* -- Helper Function Remove Blanks --*/

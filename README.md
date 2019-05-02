@@ -25,10 +25,7 @@ The dashboard is designed for new and existing fans of Marvel and DC. Users can 
 * As a fan I want to be able to easily reset data on all charts so I can quickly start a new search without the need to reload the page to reset all the charts.
 
 ## Wireframes
-
-<!-- ![Desktop](/wireframes/home.jpg/)
-![Tablet](/wireframes/home.jpg/)
-![Mobile](/wireframes/home.jpg/) -->
+[Wireframe](static/images/wireframe.jpg/)
 
 ## Current Features
 * The site uses [Intro.js](https://introjs.com/) which provides the user with a step-by-step guide for the website. The intro consists of 5 steps which helps to show the user a quick overview of the functions and charts on the site. The first step shows the user the reset button and the action, the second step shows the user the Hero Selector dropdown box, and last 3 steps show the user the first three charts and information about each chart.

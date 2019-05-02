@@ -2,21 +2,21 @@
 
 # Code Institute Milestone Project
 
-Are you a Marvel fan or are you a DC fan?
+Are you a Marvel fan or a DC fan?
 
-The Marvel vs DC Hero data dashboard contains information on over 500 super heroes and super villains from both comics. The purpose of this dashboard is to give the user away to easily analyse data from both comics. 
+The Marvel vs DC Hero data dashboard contains information on over 500 super heroes and super villains from both comics. The purpose of this dashboard is to give the user an easier way to analyse data from both comics. 
 
-The data dashboard was built using DC, D3, Crossfilter and Queue libraries to present data in varies charts such as row/bar charts, line charts and pie charts. 
+The data dashboard was built using DC, D3, Crossfilter and Queue libraries to present data in varies charts, such as row/bar charts, line charts and pie charts. 
 
 ## UX
 
-The dashboard is designed for new and existing fans of Marvel and DC. Users can manipulate and analyse large amounts of data across both comics on all the charts. To further enhance the user experience there is a dropdown menu were the user can select their favourite hero.
+The dashboard is designed for new and existing fans of Marvel and DC. Users can manipulate and analyse large amounts of data across both comics on all charts. To further enhance the user experience there is a dropdown menu, where the user can select their favourite hero.
 
 ## User stories
 
-* As a fan of Marvel or DC I want to be able to view data across both comics so I can compare which heroes are the strongest. 
+* As a fan of Marvel and DC, I want to be able to view data across both comics so I can compare which heroes are the strongest. 
 
-* As a fan of super heroes and super villains I want to be able to view data on heroes and see information such as comic, gender, alignment, eye color, hair color and hero stats.
+* As a fan of super heroes and super villains, I want to be able to view data on heroes and see information such as comic, gender, alignment, eye color, hair color and hero stats.
 
 * As a fan I want to be able to view data on individual heroes such as their hair color, eye color, hero stats and comic publisher.
  
@@ -31,14 +31,15 @@ The dashboard is designed for new and existing fans of Marvel and DC. Users can 
 ![Mobile](/wireframes/home.jpg/) -->
 
 ## Current Features
+* The site uses [Intro.js](https://introjs.com/) which provides the user with a step-by-step guide for the website. The intro consists of 5 steps which helps to show the user a quick overview of the functions and charts on the site. The first step shows the user the reset button and the action, the second step shows the user the Hero Selector dropdown box, and last 3 steps show the user the first three charts and information about each chart.
 
-* The Navbar is fixed to the top of the page and contains the name of the site. The navbar has been styled using red to represent [Marvel](https://www.marvel.com/movies) and blue to represent [DC](https://www.dcuniverse.com/coming-soon/).
+* The Navbar is fixed at the top of the page and contains the name of the site. The navbar has been styled using red to represent [Marvel](https://www.marvel.com/movies) and blue to represent [DC](https://www.dcuniverse.com/coming-soon/).
 
-* Just below the navbar on the right-hand side is a fixed scrolling reset button to allow the user to quickly and easily reset all filters at any point. This avoids the user having to scroll and find the reset button.
+* Just below the navbar, on the right-hand side, is a fixed scrolling reset button to allow the user to quickly and easily reset all filters at any point. This avoids the user having to scroll and find the reset button.
 
 * The 'filter by hero' dropdown allows the user to see all the heroes in the list, dependent upon applied filters. It also allows the user to select a specific hero to view data in isolation.
 
-* The bar chart is used to show the breakdown of heroes by publisher and can be filtered so all charts so data on a individual publisher.
+* The bar chart is used to show the breakdown of heroes by publisher. This can be filtered so all charts show data on a individual publisher.
 
 * The 2 pie charts display data on hero gender and the second pie chart displays hero alignment. The text is displayed as a percentage for easy readability, the user can also hover over a section of the pie chart to view the number of heroes that make up the percentage of the pie chart. 
 
@@ -49,10 +50,7 @@ The dashboard is designed for new and existing fans of Marvel and DC. Users can 
 * The footer contains links to [Github](https://github.com/pramcistudent), [LinkedIn](https://www.linkedin.com) pages and a link to [Kaggle](https://www.kaggle.com/) were the [original dataset](https://www.kaggle.com/thec03u5/complete-superhero-dataset) was sourced from.
 
 ### Features still to be implemented
-
-* Originally, I wanted to add [Intro.js](https://introjs.com/) which provides the user with a step-by-step walk through of the features the website has to offer and how to use buttons and filter charts on the data dashboard. Unfortunately implementing this is currently out of my scope so I tried to find an alternative intro helper function which I was able to implement.
-
-* The ability to incorporate images of each hero so the user can view these when selecting individual heroes. Not only can the user view hero images but they can also view information on when the hero first appeared in comics.
+* The ability to incorporate images of each hero so the user can view these when selecting individual heroes. Not only can the user view hero images but they can also view information about when the hero first appeared in the comics.
 
 ## Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to create the layout of the site.
@@ -111,7 +109,7 @@ The following steps were made to deploy the project
 
 ## Content
 * The original dataset was sourced from [kaggle](https://www.kaggle.com) and can be found [here](https://www.kaggle.com/thec03u5/complete-superhero-dataset).
-* I choose to filter the data since the site was only going to view and analysis data from comic publisher Marvel & DC.
+* I chose to filter the data since the site was only going to view and analysis data from comic publisher Marvel & DC.
 * The navbar gradient was sourced from this [site](https://cssgradient.io/), and I used the official website of [Marvel](https://www.marvel.com/movies) & [DC](https://www.dcuniverse.com/coming-soon/) to decide which colors to use for the gradient and which color to assign to each comic.
 
 ## Media

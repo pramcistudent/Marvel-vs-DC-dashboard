@@ -114,6 +114,6 @@ The following steps were made to deploy the project
 
 ## Acknowledgements
 * A big thank you to my mentor [Guido Cecilio](https://github.com/guidocecilio) for his time, suggestions, and constructive feedback for the project!
-* The [Tutorialspoint](https://www.tutorialspoint.com/java/) for making such a well-structured and easy to follow tutorials to help further aid with understanding of Java programming.
+* The [Tutorialspoint](https://www.tutorialspoint.com/java/) for making such a well-structured and easy to follow tutorials to help further aid with understanding of JavaScript programming.
 * My son for his input and ideas on the layout of the site as well as helping to choose the typography.
 * My wife & daughter for helping with responsive testing on multiple browsers and devices. A huge thank you to both for testing and clicking charts and ensuring the correct information renders across all charts.
